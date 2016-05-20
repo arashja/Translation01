@@ -105,7 +105,7 @@ public class MainActivity extends Activity implements TextToSpeech.OnInitListene
           //  new getxmldata().execute();
 
         }else{
-            Toast.makeText(this,"Enter word to trasnlate ",Toast.LENGTH_SHORT).show();
+            Toast.makeText(this,"Enter word/sentence to trasnlate ",Toast.LENGTH_SHORT).show();
 
 
         }
