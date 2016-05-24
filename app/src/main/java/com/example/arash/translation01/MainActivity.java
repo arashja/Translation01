@@ -215,7 +215,7 @@ public class MainActivity extends Activity implements TextToSpeech.OnInitListene
             DefaultHttpClient http_Client = new DefaultHttpClient(new BasicHttpParams());
 
 
- //not working with ourserver HttpPost ht_Post = new HttpPost("http://tolksenct.bugs3.com/transapp.php?action=xmltranslations&english_words=" + words_Translate);
+            // HttpPost ht_Post = new HttpPost("http://tolksenct.bugs3.com/translatapp.php?action=translations&english_words==" + words_Translate+"english");
             HttpPost ht_Post = new HttpPost("http://newjustin.com/translateit.php?action=xmltranslations&english_words=" + words_Translate);
 
 
