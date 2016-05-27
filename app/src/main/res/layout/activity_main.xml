@@ -22,48 +22,57 @@
         android:id="@+id/button1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="onTranslate"
-        android:text="Translate"
-        android:layout_below="@+id/editText"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editText"
+        android:onClick="onTranslate"
+        android:text="Translate" />
 
     <Button
+        android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Speak"
-        android:id="@+id/button"
-        android:onClick="ExceptSpeechInput"
-        android:layout_below="@+id/button1"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_below="@+id/button1"
+        android:onClick="ExceptSpeechInput"
+        android:text="Speak" />
 
 
 
     <Spinner
+        android:id="@+id/lang_spinner"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/lang_spinner"
-        android:entries="@array/language_array"
         android:layout_below="@+id/button1"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="131dp" />
+        android:layout_marginTop="131dp"
+        android:entries="@array/language_array" />
 
     <Button
+        android:id="@+id/button2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Read"
-        android:id="@+id/button2"
-        android:onClick="readTheText"
-        android:layout_below="@+id/lang_spinner"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/lang_spinner"
+        android:onClick="readTheText"
+        android:text="Read" />
        <TextView
         android:id="@+id/translationtxtview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 
         android:text="@string/trasnlation_textview" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="click_refresh"
+        android:text="Clear the text" />
 
 
 </RelativeLayout>
