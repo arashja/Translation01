@@ -69,10 +69,19 @@
         android:id="@+id/button6"
         android:layout_width="match_parent"
         android:layout_height="100px"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
         android:onClick="click_refresh"
-        android:text="Clear the text" />
+        android:text="Clear the text"
+        android:layout_below="@+id/button2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button android:id="@+id/btnClose"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_below="@+id/button6"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
 
 </RelativeLayout>
