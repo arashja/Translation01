@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:text="web service"
+        android:id="@+id/button3"
+        android:onClick="click_web"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:text="app service"
+        android:id="@+id/button4"
+        android:onClick="click_app"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:text="contact us"
+        android:id="@+id/button6"
+        android:onClick="click_contact"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:text="exit"
+        android:id="@+id/button5"
+        android:onClick="click_exit"/>
+
+
+</LinearLayout>
